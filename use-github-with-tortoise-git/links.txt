@@ -1,0 +1,2 @@
+http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html
+https://github.com/multitheftauto/multitheftauto/wiki/how-to-use-tortoisegit
