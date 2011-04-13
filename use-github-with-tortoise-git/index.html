@@ -1,4 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+п»ї<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 <head>
 	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
@@ -6,52 +6,52 @@
 </head>
 <body>
 	
-<h4>Гитхаб с Черепахой</h4>
+<h4>Р“РёС‚С…Р°Р± СЃ Р§РµСЂРµРїР°С…РѕР№</h4>
 
-В последнее время Гит, в том числе благодаря Гитхабу, набирает популярность среди пользователей SCM.
-От чего же не вспомнить про старую добрую Черепашку, знакомую многим по TortoiseCVS и TortoiseSVN?
-Эта статья может быть полезна тем, кто хочет делиться кодом через Гитхаб, но не готов ради этого 
-променять правый клик в проводнике на консоль Windows.
+Р’ РїРѕСЃР»РµРґРЅРµРµ РІСЂРµРјСЏ Р“РёС‚, РІ С‚РѕРј С‡РёСЃР»Рµ Р±Р»Р°РіРѕРґР°СЂСЏ Р“РёС‚С…Р°Р±Сѓ, РЅР°Р±РёСЂР°РµС‚ РїРѕРїСѓР»СЏСЂРЅРѕСЃС‚СЊ СЃСЂРµРґРё РїРѕР»СЊР·РѕРІР°С‚РµР»РµР№ SCM.
+РћС‚ С‡РµРіРѕ Р¶Рµ РЅРµ РІСЃРїРѕРјРЅРёС‚СЊ РїСЂРѕ СЃС‚Р°СЂСѓСЋ РґРѕР±СЂСѓСЋ Р§РµСЂРµРїР°С€РєСѓ, Р·РЅР°РєРѕРјСѓСЋ РјРЅРѕРіРёРј РїРѕ TortoiseCVS Рё TortoiseSVN?
+Р­С‚Р° СЃС‚Р°С‚СЊСЏ РјРѕР¶РµС‚ Р±С‹С‚СЊ РїРѕР»РµР·РЅР° С‚РµРј, РєС‚Рѕ С…РѕС‡РµС‚ РґРµР»РёС‚СЊСЃСЏ РєРѕРґРѕРј С‡РµСЂРµР· Р“РёС‚С…Р°Р±, РЅРѕ РЅРµ РіРѕС‚РѕРІ СЂР°РґРё СЌС‚РѕРіРѕ 
+РїСЂРѕРјРµРЅСЏС‚СЊ РїСЂР°РІС‹Р№ РєР»РёРє РІ РїСЂРѕРІРѕРґРЅРёРєРµ РЅР° РєРѕРЅСЃРѕР»СЊ Windows.
 
-Осторожно - много картинок.
-<!-- Отсечка картинок -->
+РћСЃС‚РѕСЂРѕР¶РЅРѕ - РјРЅРѕРіРѕ РєР°СЂС‚РёРЅРѕРє.
+<!-- РћС‚СЃРµС‡РєР° РєР°СЂС‚РёРЅРѕРє -->
 
-<h4>Установка и настройка</h4>
-<h5>Вам понадобится</h5>
+<h4>РЈСЃС‚Р°РЅРѕРІРєР° Рё РЅР°СЃС‚СЂРѕР№РєР°</h4>
+<h5>Р’Р°Рј РїРѕРЅР°РґРѕР±РёС‚СЃСЏ</h5>
 <ul>
-	<li><a href="http://code.google.com/p/tortoisegit/downloads/list">TortoiseGit</a> – готорит за себя</li>
-	<li><a href="http://code.google.com/p/msysgit/downloads/list">MsysGit</a> – Git для Windows, нужен TortoiseGit (берём файл Git-*.exe)</li>
-	<li><a href="http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html">PuTTY</a> – используется для аутентификации на Гитхабе по ключу SSH (берём файл putty-*-installer.exe)</li>
+	<li><a href="http://code.google.com/p/tortoisegit/downloads/list">TortoiseGit</a> вЂ“ РіРѕС‚РѕСЂРёС‚ Р·Р° СЃРµР±СЏ</li>
+	<li><a href="http://code.google.com/p/msysgit/downloads/list">MsysGit</a> вЂ“ Git РґР»СЏ Windows, РЅСѓР¶РµРЅ TortoiseGit (Р±РµСЂС‘Рј С„Р°Р№Р» Git-*.exe)</li>
+	<li><a href="http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html">PuTTY</a> вЂ“ РёСЃРїРѕР»СЊР·СѓРµС‚СЃСЏ РґР»СЏ Р°СѓС‚РµРЅС‚РёС„РёРєР°С†РёРё РЅР° Р“РёС‚С…Р°Р±Рµ РїРѕ РєР»СЋС‡Сѓ SSH (Р±РµСЂС‘Рј С„Р°Р№Р» putty-*-installer.exe)</li>
 </ul>
 
-<h5>Установка TortoiseGit</h5>
+<h5>РЈСЃС‚Р°РЅРѕРІРєР° TortoiseGit</h5>
 <ol>
-	<li><p>Установите PuTTY, который будет управлять ключами SSH (Вам не потребуется не SSH клиент PuTTY, а PuTTYgen и Pagent).</p>
+	<li><p>РЈСЃС‚Р°РЅРѕРІРёС‚Рµ PuTTY, РєРѕС‚РѕСЂС‹Р№ Р±СѓРґРµС‚ СѓРїСЂР°РІР»СЏС‚СЊ РєР»СЋС‡Р°РјРё SSH (Р’Р°Рј РЅРµ РїРѕС‚СЂРµР±СѓРµС‚СЃСЏ РЅРµ SSH РєР»РёРµРЅС‚ PuTTY, Р° PuTTYgen Рё Pagent).</p>
         <p><img src="https://github.com/aminin/articles/raw/master/use-github-with-tortoise-git/images/640x480/install-putty-1.png" alt="" /></p>
         <p><img src="https://github.com/aminin/articles/raw/master/use-github-with-tortoise-git/images/640x480/install-putty-2.png" alt="" /></p>
         <p><img src="https://github.com/aminin/articles/raw/master/use-github-with-tortoise-git/images/640x480/install-putty-3.png" alt="" /></p>
         <p><img src="https://github.com/aminin/articles/raw/master/use-github-with-tortoise-git/images/640x480/install-putty-4.png" alt="" /></p>
         <p><img src="https://github.com/aminin/articles/raw/master/use-github-with-tortoise-git/images/640x480/install-putty-5.png" alt="" /></p>
     </li>
-	<li>Запустите установщик msysgit, он понадобится для TortoiseGit
+	<li>Р—Р°РїСѓСЃС‚РёС‚Рµ СѓСЃС‚Р°РЅРѕРІС‰РёРє msysgit, РѕРЅ РїРѕРЅР°РґРѕР±РёС‚СЃСЏ РґР»СЏ TortoiseGit
         <p><img src="https://github.com/aminin/articles/raw/master/use-github-with-tortoise-git/images/640x480/install-git-1.png" alt="" /></p>
         <p><img src="https://github.com/aminin/articles/raw/master/use-github-with-tortoise-git/images/640x480/install-git-2.png" alt="" /></p>
         <p><img src="https://github.com/aminin/articles/raw/master/use-github-with-tortoise-git/images/640x480/install-git-3.png" alt="" /></p>
 	<ol>
-		<li>Выберите "Git Bash here"
+		<li>Р’С‹Р±РµСЂРёС‚Рµ "Git Bash here"
             <p><img src="https://github.com/aminin/articles/raw/master/use-github-with-tortoise-git/images/640x480/install-git-4.png" alt="" /></p>
             <p><img src="https://github.com/aminin/articles/raw/master/use-github-with-tortoise-git/images/640x480/install-git-5.png" alt="" /></p>
         </li>
-		<li>Выберите Use Git Bash only
+		<li>Р’С‹Р±РµСЂРёС‚Рµ Use Git Bash only
             <p><img src="https://github.com/aminin/articles/raw/master/use-github-with-tortoise-git/images/640x480/install-git-7.png" alt="" /></p>
         </li>
-		<li>Выберите Checkout Windows style line endings
+		<li>Р’С‹Р±РµСЂРёС‚Рµ Checkout Windows style line endings
             <p><img src="https://github.com/aminin/articles/raw/master/use-github-with-tortoise-git/images/640x480/install-git-8.png" alt="" /></p>
         </li>
         <img src="https://github.com/aminin/articles/raw/master/use-github-with-tortoise-git/images/640x480/install-git-6.png" alt="" /></p>
 	</ol>
 	</li>
-	<li>Установите TortoiseGit
+	<li>РЈСЃС‚Р°РЅРѕРІРёС‚Рµ TortoiseGit
         <p><img src="https://github.com/aminin/articles/raw/master/use-github-with-tortoise-git/images/640x480/install-tortoise-1.png" alt="" /></p>
         <p><img src="https://github.com/aminin/articles/raw/master/use-github-with-tortoise-git/images/640x480/install-tortoise-2.png" alt="" /></p>
         <p><img src="https://github.com/aminin/articles/raw/master/use-github-with-tortoise-git/images/640x480/install-tortoise-3.png" alt="" /></p>
@@ -60,18 +60,18 @@
         <p><img src="https://github.com/aminin/articles/raw/master/use-github-with-tortoise-git/images/640x480/install-tortoise-6.png" alt="" /></p>
         <p><img src="https://github.com/aminin/articles/raw/master/use-github-with-tortoise-git/images/640x480/install-tortoise-7.png" alt="" /></p>
 	<ol>
-		<li>Если спросит путь к msysgit, укажите директорию bin в установочной директории msysgit (например C:\Program Files\Git\bin)</li>
-		<li>Установив TortoiseGit, зайдите в TortoiseGit > Settings > Git > Config и проверяем что галочки AutoCRLF и SafeCRLF установлены
+		<li>Р•СЃР»Рё СЃРїСЂРѕСЃРёС‚ РїСѓС‚СЊ Рє msysgit, СѓРєР°Р¶РёС‚Рµ РґРёСЂРµРєС‚РѕСЂРёСЋ bin РІ СѓСЃС‚Р°РЅРѕРІРѕС‡РЅРѕР№ РґРёСЂРµРєС‚РѕСЂРёРё msysgit (РЅР°РїСЂРёРјРµСЂ C:\Program Files\Git\bin)</li>
+		<li>РЈСЃС‚Р°РЅРѕРІРёРІ TortoiseGit, Р·Р°Р№РґРёС‚Рµ РІ TortoiseGit > Settings > Git > Config Рё РїСЂРѕРІРµСЂСЏРµРј С‡С‚Рѕ РіР°Р»РѕС‡РєРё AutoCRLF Рё SafeCRLF СѓСЃС‚Р°РЅРѕРІР»РµРЅС‹
             <p><img src="https://github.com/aminin/articles/raw/master/use-github-with-tortoise-git/images/640x480/tortoise-git-settings-1.png" alt="" /></p>
             <p><img src="https://github.com/aminin/articles/raw/master/use-github-with-tortoise-git/images/640x480/tortoise-git-settings-2.png" alt="" /></p>
-            Здесь же можно указать и свё имя и Email, которые будут видеть другие пользователи, читая Ваши коммиты.
+            Р—РґРµСЃСЊ Р¶Рµ РјРѕР¶РЅРѕ СѓРєР°Р·Р°С‚СЊ Рё СЃРІС‘ РёРјСЏ Рё Email, РєРѕС‚РѕСЂС‹Рµ Р±СѓРґСѓС‚ РІРёРґРµС‚СЊ РґСЂСѓРіРёРµ РїРѕР»СЊР·РѕРІР°С‚РµР»Рё, С‡РёС‚Р°СЏ Р’Р°С€Рё РєРѕРјРјРёС‚С‹.
         </li>
 	</ol>
 	</li>
 </ol>
-<h5>Создание ключа SSH для GitHub</h5>
+<h5>РЎРѕР·РґР°РЅРёРµ РєР»СЋС‡Р° SSH РґР»СЏ GitHub</h5>
 <ol>
-    <li>Создайте ключ SSH
+    <li>РЎРѕР·РґР°Р№С‚Рµ РєР»СЋС‡ SSH
         <p><img src="https://github.com/aminin/articles/raw/master/use-github-with-tortoise-git/images/640x480/ssh-keygen-1.png" alt="" /></p>
         <p><img src="https://github.com/aminin/articles/raw/master/use-github-with-tortoise-git/images/640x480/ssh-keygen-2.png" alt="" /></p>
         <p><img src="https://github.com/aminin/articles/raw/master/use-github-with-tortoise-git/images/640x480/ssh-keygen-3.png" alt="" /></p>
@@ -79,32 +79,32 @@
         <p><img src="https://github.com/aminin/articles/raw/master/use-github-with-tortoise-git/images/640x480/ssh-keygen-5.png" alt="" /></p>
         <p><img src="https://github.com/aminin/articles/raw/master/use-github-with-tortoise-git/images/640x480/ssh-keygen-6.png" alt="" /></p>
     </li>
-    <li>Добавьте публичный ключ в свой профиль на Гитхабе
+    <li>Р”РѕР±Р°РІСЊС‚Рµ РїСѓР±Р»РёС‡РЅС‹Р№ РєР»СЋС‡ РІ СЃРІРѕР№ РїСЂРѕС„РёР»СЊ РЅР° Р“РёС‚С…Р°Р±Рµ
         <p><img src="https://github.com/aminin/articles/raw/master/use-github-with-tortoise-git/images/640x480/ssh-copy-id-1.png" alt="" /></p>
         <p><img src="https://github.com/aminin/articles/raw/master/use-github-with-tortoise-git/images/640x480/ssh-copy-id-2.png" alt="" /></p>
     </li>
 </ol>
 
-<h4>Работа с Гитхабом</h4>
+<h4>Р Р°Р±РѕС‚Р° СЃ Р“РёС‚С…Р°Р±РѕРј</h4>
 
-Для начала, создайте репозиторий на Гитхабе. Чтобы новый репозиторий не был пустым, можно скопировать существующий, например, зайдя на <a href="https://github.com/aminin/articles">его страницу</a> и нажав кнопку "Fork".
+Р”Р»СЏ РЅР°С‡Р°Р»Р°, СЃРѕР·РґР°Р№С‚Рµ СЂРµРїРѕР·РёС‚РѕСЂРёР№ РЅР° Р“РёС‚С…Р°Р±Рµ. Р§С‚РѕР±С‹ РЅРѕРІС‹Р№ СЂРµРїРѕР·РёС‚РѕСЂРёР№ РЅРµ Р±С‹Р» РїСѓСЃС‚С‹Рј, РјРѕР¶РЅРѕ СЃРєРѕРїРёСЂРѕРІР°С‚СЊ СЃСѓС‰РµСЃС‚РІСѓСЋС‰РёР№, РЅР°РїСЂРёРјРµСЂ, Р·Р°Р№РґСЏ РЅР° <a href="https://github.com/aminin/articles">РµРіРѕ СЃС‚СЂР°РЅРёС†Сѓ</a> Рё РЅР°Р¶Р°РІ РєРЅРѕРїРєСѓ "Fork".
 
-<h5>Клонирование репозитория с Гитхаба</h5>
+<h5>РљР»РѕРЅРёСЂРѕРІР°РЅРёРµ СЂРµРїРѕР·РёС‚РѕСЂРёСЏ СЃ Р“РёС‚С…Р°Р±Р°</h5>
     <p><img src="https://github.com/aminin/articles/raw/master/use-github-with-tortoise-git/images/640x480/git-clone-0.png" alt="" /></p>
     <p><img src="https://github.com/aminin/articles/raw/master/use-github-with-tortoise-git/images/640x480/git-clone-1.png" alt="" /></p>
     <p><img src="https://github.com/aminin/articles/raw/master/use-github-with-tortoise-git/images/640x480/git-clone-2.png" alt="" /></p>
     <p><img src="https://github.com/aminin/articles/raw/master/use-github-with-tortoise-git/images/640x480/git-clone-3.png" alt="" /></p>
 
-<h5>Добавление файлов</h5>
+<h5>Р”РѕР±Р°РІР»РµРЅРёРµ С„Р°Р№Р»РѕРІ</h5>
     <p><img src="https://github.com/aminin/articles/raw/master/use-github-with-tortoise-git/images/640x480/git-add-1.png" alt="" /></p>
     <p><img src="https://github.com/aminin/articles/raw/master/use-github-with-tortoise-git/images/640x480/git-add-2.png" alt="" /></p>
 
-<h5>Коммит</h5>
+<h5>РљРѕРјРјРёС‚</h5>
     <p><img src="https://github.com/aminin/articles/raw/master/use-github-with-tortoise-git/images/640x480/git-commit-1.png" alt="" /></p>
     <p><img src="https://github.com/aminin/articles/raw/master/use-github-with-tortoise-git/images/640x480/git-commit-2.png" alt="" /></p>
     <p><img src="https://github.com/aminin/articles/raw/master/use-github-with-tortoise-git/images/640x480/git-commit-3.png" alt="" /></p>
 
-<h5>Пуш и пул</h5>
+<h5>РџСѓС€ Рё РїСѓР»</h5>
     <p><img src="https://github.com/aminin/articles/raw/master/use-github-with-tortoise-git/images/640x480/git-push-1.png" alt="" /></p>
     <p><img src="https://github.com/aminin/articles/raw/master/use-github-with-tortoise-git/images/640x480/git-push-2.png" alt="" /></p>
     <p><img src="https://github.com/aminin/articles/raw/master/use-github-with-tortoise-git/images/640x480/git-push-3.png" alt="" /></p>
